@@ -1,4 +1,4 @@
-ocal a=loadstring(game:HttpGet'https://sirius.menu/rayfield')()
+local a=loadstring(game:HttpGet'https://sirius.menu/rayfield')()
 
 local b=a:CreateWindow{
 Name="Alanfeiohub",
