@@ -251,3 +251,31 @@ local Button = Tab3:CreateButton({
    Callback = function()
    end,
 })
+
+local Button20 = Tab:CreateButton({
+    Name = "ThunderZ",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/ThundarZ/Welcome/refs/heads/main/Main/Loader/AllGame.lua'))()
+    end,
+})
+
+local Button21 = Tab:CreateButton({
+    Name = "RedzHub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
+    end,
+})
+
+local Button22 = Tab:CreateButton({
+    Name = "HohoHubV4",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+    end,
+})
+
+local Button23 = Tab:CreateButton({
+    Name = "Moon Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/MoonHub", true))()
+    end,
+})
